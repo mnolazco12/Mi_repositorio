@@ -1,3 +1,265 @@
 
 
 /*# sourceMappingURL=estilo.css.map */
+/* SINTAXIS DE CSS
+    selector {
+        propiedad: valor;
+    } */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+        color: rgb(160, 89, 118);
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Sacramento', cursive;
+        background-color:rgb(213, 176, 207)
+    }
+    .formulario{
+        color: rgb(0, 0, 0);
+        background-color: rgb(232, 180, 184);
+        border: rgb(109, 104, 117) 5px solid;
+        margin: auto;
+        width: 400px;
+        height: 300px;
+    }
+    .parrafo{
+        color: rgb(0, 0, 0);
+        background-color: rgb(232, 180, 184);
+        border: rgb(109, 104, 117) 7px;
+        border-style:dotted;
+        padding: 80px;
+        margin: 60px;
+        font-size: 21px;
+    }
+    /* Descripcion */
+    
+    p{
+        color: rgb(251, 251, 251);
+    }
+    
+    h4{
+        color: rgb(255, 255, 255);
+    }
+    
+    footer{
+        font-family: 'Sacramento', cursive;
+        font-size: 45px;
+        text-align:center;
+        position:sticky;
+        color:rgb(131, 45, 78);
+    }
+    
+    .container-fluid{
+        background-size: cover;
+        font-family: 'Handlee', cursive;
+        display: grid;
+        grid-area: "nav";
+        background-color:rgb(213, 176, 207);
+    
+    
+    
+    }
+     
+    a{
+        border: 5px black ;
+        text-align: center;
+        border-radius: 5px;
+        display:inline-block;
+        justify-content:center;
+        align-items:baseline;
+        flex: none;
+        font-size:larger;
+    }
+    
+    .Listas{
+        display:inline-block;
+        color: rgb(0, 0, 0);
+    }
+    .title{
+        color: rgb(131, 45, 78);
+        text-align: center;
+        font-size: 30px;
+    }
+    .img{
+        width: 400px;
+        height: 400px;
+        border: 5px solid rgb(131, 45, 78); 
+        transition: 2s; 
+    }
+    .img:hover{
+        background-position:top
+    }
+    .img1{
+        background-image: url(../img/foto2.jpg);
+    }
+    .img2{
+        background-image: url(../img/foto3.jpg);
+    }
+    .img3{
+        background-image: url(../img/foto4.jpg);
+    }
+    .img4{
+        background-image: url(../img/foto5.jpg);
+    }
+    .img5{
+        background-image: url(../img/foto5.jpg);
+    }
+    .img6{
+        background-image: url(../img/foto5.jpg);
+    }
+    .img7{
+        background-image: url(../img/foto5.jpg);
+    }
+    .img8{
+        background-image: url(../img/foto5.jpg);
+    }
+    
+     li {
+        display: inline-block;
+        width: 15%;
+        position:sticky;
+        font-size: 14px
+    }
+     ul ul {
+        position:absolute;
+        display: inline-block;
+     }
+     ul ul li {
+        display: inline-block;
+     }
+     ul li:hover ul {
+        display:inline-block;
+     }
+    
+     .leyenda{
+        color: rgb(131, 45, 78);
+        font-family: 'Handlee', cursive;
+        font-size: 20px;
+     }
+    .Titulomedio{
+        font-family: 'Handlee', cursive;
+        font-size: 50px;
+    }
+     #item-uno{
+        background-color: rgb(243, 118, 191);
+        border: 5px rgb(204, 105, 196) ;
+        text-align: center;
+        border-radius: 5px;
+        justify-content:center;
+        align-items:flex-end;
+        display: inline;
+    
+    
+     }
+     #item-dos{
+        background-color: rgb(243, 118, 191);
+        border: 5px rgb(204, 105, 196) ;
+        text-align: center;
+        border-radius: 5px;
+        justify-content:center;
+        align-items:flex-end;
+    
+     }
+     #item-tres{
+        color: crimson;
+        background-color: rgb(243, 118, 191);
+        border: 5px rgb(204, 105, 196) ;
+        text-align: center;
+        border-radius: 5px;
+        justify-content:center;
+        align-items:flex-end;
+    
+     }
+     #item-cuatro{
+        background-color: rgb(243, 118, 191);
+        border: 5px rgb(204, 105, 196) ;
+        text-align: center;
+        border-radius: 5px;
+        justify-content:center;
+        align-items:flex-end;
+    
+     }
+    
+        /*botones*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    .Wpp img{
+        width: 40px;
+        position:sticky;
+        bottom:50px;
+        right:auto;
+        }   
+        a{
+            color: black;
+            text-decoration: none;
+            text-transform:uppercase;
+            font-size:large;
+            font-family: 'Handlee', cursive;
+        }
+    .nav ul{
+        list-style: none;
+        text-align: center;
+    
+    }
+    
+    /* animaciones */
+    
+    .title {
+        animation-duration: 2s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      
+      .Titulomedio {
+        animation-duration: 4s;
+        animation-name: segunda;
+      }
+      
+      @keyframes segunda {
+        from {
+          margin-top: 50%;
+          width: 100%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      
+      .primerSeccion {
+        animation-duration: 4s;
+        animation-name: primera;
+      }
+      
+      @keyframes primera {
+        from {
+          margin-trim: 50%;
+          width: 100%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+      .nav {
+        color:blueviolet;
+      }
